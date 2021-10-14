@@ -5,11 +5,9 @@ The project mimics how atm works plus some extra functionalities
 ### #azubi africa #awsreStart
 
 ## Funtions
- * Account SignUp and Login
+ * Account Login
  * Deposit cash
  * Withdraw cash
  * View transaction history
- * Pay bill
  * Change pin
- * View account details
  
