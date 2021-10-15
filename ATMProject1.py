@@ -103,7 +103,7 @@ while app_state:
 
     uname = str(input('Enter Name: '))
     user1 = ATM(uname, users[uname][1])
-    if uname in k:
+    if uname in users_key:
         i = 3
         while (i > 0):
             pin = int(input('Enter PIN: '))
