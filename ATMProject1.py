@@ -75,20 +75,7 @@ class ATM():
         for tran in range(len(allTransactions)):
             sys.stdout.write(allTransactions[tran])
 
-    def pin_change(self, user_pin):
-        i = 2
-        while (i > 0):
-            p = int(input('Enter Original PIN: '))
-            if p == user_pin:
-                x = input('Enter New PIN: ')
-                user_pin = x
-                break
-            else:
-                i = i - 1
-                print('PIN incorrect, {} tries left'.format(i))
-        if i == 0:
-            del self.username
-            print('Account Blocked!')
+    
 
 
 # Main Function
@@ -137,8 +124,7 @@ while app_state:
 2. Withdraw Cash
 3. Deposit Money
 4. View History
-5. Change Pin
-6. Quit""")
+5. Quit""")
                     print("\n")
                     choice = int(input("Please enter the number of your choice: "))
                     if choice == 1:
@@ -154,8 +140,6 @@ while app_state:
                         user1.print_transaction()
 
                     elif choice == 5:
-                        user1.pin_change(users[uname][0])
-                    elif choice == 6:
                         print(" Thank you for banking with us!!!")
                         app_state = False
                     else:
