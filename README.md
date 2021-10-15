@@ -9,6 +9,6 @@ The project mimics how an atm works plus some extra functionalities.
  * Deposit Cash
  * Withdraw Cash
  * View Transaction History
- * Change pin
+
  
  
