@@ -1,4 +1,4 @@
-#!/bin/env python3
+#!/usr/bin/env python3
 import sys, os, time, re
 from datetime import datetime
 
@@ -155,9 +155,6 @@ while app_state:
 
                     elif choice == 5:
                         user1.pin_change(users[uname][0])
-                       
-                        
-
                     elif choice == 6:
                         print(" Thank you for banking with us!!!")
                         app_state = False
